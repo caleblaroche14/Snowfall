@@ -1,0 +1,30 @@
+#canv{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    background-color: rgb(56, 139, 177);
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+.menuitem{
+    background: rgba(128, 128, 128, 0.308);
+    padding: 20px;
+}
+
+.menuitem p{
+    color: white;
+    font-family: 'Patrick Hand SC', cursive;
+}

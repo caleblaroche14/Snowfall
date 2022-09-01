@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="stylesheet" href="snow.css">
+    <body>
+
+
+        <canvas id="canv" width="600px" height="600px"></canvas>
+        <script src="snow.js"></script>
+
+        <div class="menu">
+            <div class="menuitem"><p>Wind</p><input onchange='changeWind(this.value)' oninput='changeWind(this.value)' type="range" min="-10" max="10" step=".1" class="scroll" id="wind"></input></div>
+            <div class="menuitem"><p>Weight</p><input value="1" onchange='changeGravity(this.value)' oninput='changeGravity(this.value)' type="range" min="1" max="50" step=".1" class="scroll" id="grav"></input></div>
+            <div class="menuitem"><p>Amount</p><input value="400" onchange='changeBalls(this.value)' oninput='changeBalls(this.value)' type="range" min="1" max="5000" step="1" class="scroll" id="amount"></input></div>
+        </div>
+    </body>
+</html>
